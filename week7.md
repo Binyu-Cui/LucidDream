@@ -11,19 +11,48 @@
 
 ---
 
-### Reading & Reflections
-
-fill in with your thoughts
-
----
-
 ### Peer Support
 
-fill in with your own summary of what you discussed
+I teamed up with a classmate to work on this project. We brainstormed a lot of ideas and eventually decided to explore one direction she suggested in more depth. Through our discussions, we realized that TouchDesigner is really well-suited for creating surreal themes and bringing imaginative concepts to life.
 
 ---
 
 ### Project Development
 
-Include ideas you had this week for your first project 
+Here is the initial idea of ​​this project using touchdesigner, designed by two people:
+Project Concept: Echoes of Shan Hai
+Inspiration Source: Classic of Mountains and Seas (Shan Hai Jing)
+Shan Hai Jing (circa 4th-2nd century BCE) is an ancient Chinese text documenting mythical geography and supernatural creatures. It depicts a worldview where nature and divinity intertwine: one-legged dragons summon storms, avian deities herald spring, and mountains pulse with spiritual energy. This compendium transcends folklore—it embodies early ecological consciousness, framing nature as sacred living entities rather than resources.
+
+Core Premise
+This project reimagines Shan Hai Jing’s vanishing cosmography as an interactive warning. Audiences enter a monochromatic installation where once-vibrant creatures now linger as spectral projections. Through physical engagement—touching walls, vocalizing names, stepping onto responsive zones—participants reactivate these dormant beings. Each interaction restores color, sound, and movement to the space, symbolizing humanity’s capacity to rekindle ecological balance.
+
+Why TouchDesigner?
+The software’s capabilities align intrinsically with the mythos:
+
+Fluid Abstraction
+Shan Hai Jing’s creatures defy literal representation; they are elemental forces given form. TouchDesigner’s real-time particle systems and GLSL shaders visualize them as evolving ink-wash paintings—organic, transient, and resonating with ancient artistic traditions.
+
+Immediate Embodiment
+Myths manifest through action: a shout becomes thunder, a touch summons rain. TouchDesigner’s sensor integration (depth cameras, microphones) translates human gestures into instant audiovisual consequences, making mythical cause-effect tangible.
+
+Dynamic Ecosystems
+The narratives require interconnected reactions (e.g., awakening firebirds necessitates summoning rain spirits). TouchDesigner’s node-based workflow models these dependencies, allowing creature behaviors to cascade through the environment.
+
+Experience Narrative
+Phase 1: Silence of the Forgotten
+Visitors encounter a grayscale landscape. Projections show dormant creatures (Kui the thunder dragon, Chunmang the spring spirit)—their stillness mirroring today’s biodiversity loss.
+
+Phase 2: Ritual of Reawakening
+Physical interactions trigger transformations:
+
+Touching a wall ignites Kui’s presence, cracking thunder across the space.
+
+Calling Yinglong (flood-controlling dragon) sends ripples through virtual rivers.
+
+Phase 3: Legacy of Choice
+Participants select one creature to release into a procedurally generated habitat. This act concludes the journey, underscoring that ecological continuity demands conscious intervention.
+
+Philosophical Framework
+Shan Hai Jing cautioned that neglecting nature’s sanctity invites calamity. This installation extends that warning to the Anthropocene: when myths fade, reality follows. By fusing TouchDesigner’s technological immediacy with Shan Hai Jing’s allegorical depth, we make abstract crises visceral. The project posits that re-enchanting our relationship with nature begins not with nostalgia, but with actionable reverence.
 

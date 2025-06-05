@@ -2,7 +2,7 @@
 
 ### Labs
 
-Summarize what you accomplished in the lab exercise this week. Include images
+This week I finally started learning TouchDesigner—a highly anticipated step for me. I believe its node-based programming allows creating stunning interactive effects quickly through simple node operations, without needing coding skills. The real-time rendering enables instant visual/audio feedback, perfect for experimental projects. During undergrad, I used its audio interaction plugin for a ‘sound waterfall’ project (showcasing cross-media integration), so I already grasp the basics.
 
 ---
 
@@ -21,15 +21,10 @@ I also appreciated how the chapter emphasizes that speculative design doesn’t 
 ![research](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/376635ae-b9de-4335-84b2-f215c270ca86)
 *My undergraduate FMP research*
 
----
-
-### Peer Support
-
-fill in with your own summary of what you discussed
 
 ---
 
 ### Project Development
 
-Include ideas you had this week for your first project 
+I want to continue with what I did before, because I didn't finish it at that time.
 

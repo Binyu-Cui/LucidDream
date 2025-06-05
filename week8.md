@@ -20,5 +20,6 @@ fill in with your own summary of what you discussed
 
 ### Project Development
 
-Include ideas you had this week for your first project 
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/de989102-efd5-478b-bdcf-1bf40fd81798)
+
 

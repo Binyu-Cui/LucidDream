@@ -76,3 +76,10 @@ The MediaPipe plugin in TouchDesigner is an integrated version of Google's Media
 
 https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/4a3885f1-8795-4768-95e0-84f839686e1f
 
+This is a demo of some effects achieved using the plugin in TouchDesigner, which utilized several tools from the plugin. However, due to project changes later in the process, this isn't part of the final version, so I'm just keeping this one screen recording of the effect from that time.
+
+
+https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/140a210c-e13b-4666-9059-ed3d01276f05
+
+
+

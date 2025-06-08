@@ -69,3 +69,7 @@ The first step was to find high-resolution, background-free reference images. I 
 
 I used the AI model TRIPO to quickly convert 2D images of the creatures into 3D models, laying the groundwork for bringing them to life in TouchDesigner.
 ![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/a98c57d1-2243-4754-9e81-5bc917ea820c)
+Following the same steps used for making the mask, I completed a similar transformation from the overall design to samples, finishing the final steps before importing into TouchDesigner.
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/7869a398-dcff-4d10-8d22-0ed19712d2e0)
+
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/69699b1e-778f-48bf-85a2-9eb51f71749a)

@@ -28,3 +28,11 @@ I also appreciated how the chapter emphasizes that speculative design doesn’t 
 
 I want to continue with what I did before, because I didn't finish it at that time.
 
+![演示_0002](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/5b952f83-7819-4516-9a4d-a0cb88ab10ab)
+![演示_0001](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/b5f81bab-6e1f-476e-b179-5fbc565def0f)
+
+This project, built in TouchDesigner, visualizes a flow-based emotional ecosystem. A constant stream of lines, representing human emotions, cascades like a waterfall and converges into a central triangular structure—the energetic core of this imagined world.
+
+The triangle serves as a symbolic “engine of transformation,” where collective emotional input is processed and transmuted into pulses of light, particles, and spatial distortions. These forms suggest a continuous conversion of affect into energy, feeding the surrounding space with motion and intensity.
+
+The result is a self-sustaining emotional-energy feedback loop: a dynamic system where feelings are gathered, condensed, and released as new energetic matter. Surrounding line frameworks and flickering particles emphasize the density and tension of this flow, creating a meditative, data-poetic environment that breathes with the invisible currents of inner life.

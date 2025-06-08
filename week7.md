@@ -56,9 +56,23 @@ Participants select one creature to release into a procedurally generated habita
 Philosophical Framework
 Shan Hai Jing cautioned that neglecting nature’s sanctity invites calamity. This installation extends that warning to the Anthropocene: when myths fade, reality follows. By fusing TouchDesigner’s technological immediacy with Shan Hai Jing’s allegorical depth, we make abstract crises visceral. The project posits that re-enchanting our relationship with nature begins not with nostalgia, but with actionable reverence.
 
-**The first step was to find high-resolution, background-free reference images. I gathered over thirty mythical creatures from the Shan Hai Jing, and selected a few that were the most iconic and visually striking.**
+At first, I used C4D to build face masks that matched the look of the creatures, so I could use a plugin in TouchDesigner to attach them to the face in real time.
 
-![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/8bddc10b-d19d-4f32-9715-8b6e5140a683)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/5d794624-032d-45fe-94de-9c399b071a5d)
 
-I used the AI model TRIPO to quickly convert 2D images of the creatures into 3D models, laying the groundwork for bringing them to life in TouchDesigner.
-![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/a98c57d1-2243-4754-9e81-5bc917ea820c)
+
+**MeshLab** is an open-source software designed for processing and editing 3D mesh models. It’s widely used for tasks like cleaning up scanned data, repairing mesh defects, simplifying high-poly models, and converting between different 3D file formats. With features such as mesh reconstruction, texture mapping, point cloud processing, and topology fixing, MeshLab is especially useful in workflows involving 3D scanning, digital fabrication, or real-time rendering environments like TouchDesigner or Unity. Its lightweight interface and powerful toolset make it ideal for quickly preparing 3D assets for creative or technical use.
+
+Customize the number of samples.
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/2a3bc91a-bc5d-4366-bc96-bfef578e8aa8)
+
+This process uses a function in MeshLab called “Transfer: Vertex Attributes to Texture,” which converts vertex color (or other attributes like normals or textures) from the mesh into a texture map. In other words, it bakes the visual effect created by vertex coloring into a PNG texture image, making it easier to use in other software with standard UV mapping.
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/d64b541e-3bd7-4c38-8486-ebddbab565f0)
+
+The MediaPipe plugin in TouchDesigner is an integrated version of Google's MediaPipe framework, designed for real-time computer vision and machine learning tasks. It enables direct pose detection, hand tracking, facial recognition, and gesture recognition within TouchDesigner without requiring additional external software. This plugin is particularly well-suited for interactive installations and live performances because it provides high-precision human keypoint data that can be directly output as TouchDesigner's CHOP or DAT formats, making it easy to connect with other nodes. Compared to traditional Kinect systems, MediaPipe's advantage lies in its ability to achieve accurate tracking using just a regular camera with extremely low latency. Common applications include pose-controlled visual effects, gesture-driven audio synthesis, and facial expression mapping to 3D models in interactive media projects. The plugin supports multi-person tracking simultaneously and allows customization of which body part data to output.
+
+**I tried out the plugin following the official YouTube tutorial and the effects feel like a perfect match for the mask I'm making.**
+
+
+https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/4a3885f1-8795-4768-95e0-84f839686e1f
+

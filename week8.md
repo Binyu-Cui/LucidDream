@@ -62,4 +62,10 @@ Particle SOP for glowing creatures
 
 ### Project Development
 
+**After discussing with my partner last week, we decided to change our approach and build an interactive effect that's not just about masks, since that wouldn't have much meaning and would be pretty monotonous. So I started looking for better materials again.**  
+The first step was to find high-resolution, background-free reference images. I gathered over thirty mythical creatures from the Shan Hai Jing, and selected a few that were the most iconic and visually striking.
 
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/8bddc10b-d19d-4f32-9715-8b6e5140a683)
+
+I used the AI model TRIPO to quickly convert 2D images of the creatures into 3D models, laying the groundwork for bringing them to life in TouchDesigner.
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/a98c57d1-2243-4754-9e81-5bc917ea820c)

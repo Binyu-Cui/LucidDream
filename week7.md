@@ -56,3 +56,9 @@ Participants select one creature to release into a procedurally generated habita
 Philosophical Framework
 Shan Hai Jing cautioned that neglecting nature’s sanctity invites calamity. This installation extends that warning to the Anthropocene: when myths fade, reality follows. By fusing TouchDesigner’s technological immediacy with Shan Hai Jing’s allegorical depth, we make abstract crises visceral. The project posits that re-enchanting our relationship with nature begins not with nostalgia, but with actionable reverence.
 
+**The first step was to find high-resolution, background-free reference images. I gathered over thirty mythical creatures from the Shan Hai Jing, and selected a few that were the most iconic and visually striking.**
+
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/8bddc10b-d19d-4f32-9715-8b6e5140a683)
+
+I used the AI model TRIPO to quickly convert 2D images of the creatures into 3D models, laying the groundwork for bringing them to life in TouchDesigner.
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/a98c57d1-2243-4754-9e81-5bc917ea820c)

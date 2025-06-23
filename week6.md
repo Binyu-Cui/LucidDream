@@ -9,6 +9,10 @@ This is an unfinished undergrad project I'd like to refine during the course. Ha
 ![演示_0001](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/b5f81bab-6e1f-476e-b179-5fbc565def0f)
 
 This project, built in TouchDesigner, visualizes a flow-based emotional ecosystem. A constant stream of lines, representing human emotions, cascades like a waterfall and converges into a central triangular structure—the energetic core of this imagined world.
+<img width="767" alt="image" src="https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/0c0824f0-90ca-4a5c-bf1f-b83e7b73687d">
+<img width="759" alt="image" src="https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/0dc62bf4-7a35-437c-a5ec-b32c0cb18dfb">
+<img width="1509" alt="image" src="https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/3593251d-b3f4-4965-a273-fda7a80d78d5">
+*I added a noise component so that it can follow the ripples of the music to create a richer effect.*  
 
 The triangle serves as a symbolic “engine of transformation,” where collective emotional input is processed and transmuted into pulses of light, particles, and spatial distortions. These forms suggest a continuous conversion of affect into energy, feeding the surrounding space with motion and intensity.
 

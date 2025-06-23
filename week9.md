@@ -41,7 +41,6 @@ I quickly created an animation in AE to enrich the background, inserting animati
 Combine the animation with facial recognition particle model switching, hand gesture recognition control, and reality - all three elements together in one comp.
 <img width="1624" alt="image" src="https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/c3fef74c-baa6-461e-a8d9-d93668a0ee39">
 
-Finally, let's take a look at the completed effects at this stage. I set the camera feed to transparent so only the main 3D particle models and 2D background animation remain on screen. After repeated debugging, I finally settled on this gesture interaction - when one hand is detected by the audience, it switches the main model; when a second hand is detected (both thumbs and index fingers appear simultaneously on screen), the particles scatter and the main model disappears; when the second hand is no longer detected, the particles reaggregate.
-
+Finally, let's take a look at the completed effects at this stage. I set the camera feed to transparent so only the main 3D particle models and 2D background animation remain on screen. After repeated debugging, I finally settled on this gesture interaction - when one hand is detected by the audience, it switches the main model; when a second hand is detected (both thumbs and index fingers appear simultaneously on screen), the particles scatter and the main model disappears; when the second hand is no longer detected, the particles reaggregate.  
 https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/18de1f47-f722-49a7-ab10-12692386116c
 

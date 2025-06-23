@@ -3,8 +3,8 @@
 ### Demo
 ![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/6b8d33a4-5cd1-438a-8491-951b40f07d4e)
 ![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/632f744b-4670-4f4d-b0e0-ea826b2fdc9f)
-![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/57b746aa-8af1-4837-958d-c88cda2db272)
-![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/66452182-8f1f-4b40-8d9c-22bb95c93055)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/42d59454-936e-4634-ab60-1b9975372c04)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/04e2c0a2-be86-45af-b624-015dbf39c882)
 ![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/389be2f1-23c8-4145-b4b5-05fee6cba0dd)
 ![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/89e4efa6-8c8a-4d46-b963-889b56f82188)
 ![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/0a4285ae-d7d5-4275-85d9-d05d4d8bc4a1)

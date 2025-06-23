@@ -62,6 +62,12 @@ The handmade approach emerged from understanding the visceral design principles 
 
 Trust and betrayal drive the game's emotional architecture, operating across all three design levels identified in the course materials. The visceral level emerges through immediate reactions to dice rolls and card reveals. The behavioral level develops through the strategic cooperation required in early levels, where players must genuinely help each other survive the forest and defeat the monster. The reflective level crystallizes in Level 3's infection mechanism, which deliberately fractures established social bonds and forces players to question everything that came before. This progression from cooperation to suspicion isn't accidental - it creates what the materials describe as "carnivalesque" play, balancing creation and destruction within the game's bounded duration. Through multiple playtests, this emotional journey has proven remarkably consistent, demonstrating how well-designed constraints can generate reliable yet surprising emergent behaviors in the system of player relationships.
 
+![DFE1C8FF-B178-4B66-93EA-090B48C703D7_1_201_a](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/a3621648-799d-4c58-bf30-9ea0ff1a2d57)
+
+![9B863FC7-430C-40E2-A2DF-42324AED38F9_1_201_a](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/62b224af-9296-4fb8-9850-36e2420ac4d2)
+
+![54265E7C-668A-4DFE-B527-EB247F1EDC2A_1_201_a](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/59f2fc44-1b6d-4ff0-acf1-4306b6646370)
+
 ## These are the ideas it gave me about games  
 Instead of seeing them as entertainment products, I learned that games are systems that create their own bounded time and space with clear rules and endings. The concept that play can "take over" and transform social situations directly influenced my design approach - I realized that each level could deliberately shift what the interaction means for players. Understanding the balance between challenge and skill helped structure progression, while learning the difference between "play as activity" and "playfulness as attitude" showed me that designing games isn't just about making mechanics, but creating conditions where people willingly engage emotionally with each other.
 

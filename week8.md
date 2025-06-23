@@ -27,7 +27,6 @@ Kui (thunder beast) → brings storm sounds
 Jumang (spring god) → projects green plants  
 Yinglong (winged dragon) → guides to next area
 
-
 Create Your World - "Release" chosen creature into virtual ecosystem, watch it live on big screen
 
 Core Message: Without action, both mythical and real worlds go silent.

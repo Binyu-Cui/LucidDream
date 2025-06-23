@@ -1,23 +1,22 @@
 # Week 18
 
-### Labs
-
-Summarize what you accomplished in the lab exercise this week. Include images
-
----
-
-### Reading & Reflections
-
-fill in with your thoughts
-
----
-
-### Peer Support
-
-fill in with your own summary of what you discussed
-
----
-
-### Project Development
-
-Include ideas you had this week for your first project 
+### Demo
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/6b8d33a4-5cd1-438a-8491-951b40f07d4e)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/632f744b-4670-4f4d-b0e0-ea826b2fdc9f)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/57b746aa-8af1-4837-958d-c88cda2db272)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/66452182-8f1f-4b40-8d9c-22bb95c93055)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/389be2f1-23c8-4145-b4b5-05fee6cba0dd)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/89e4efa6-8c8a-4d46-b963-889b56f82188)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/0a4285ae-d7d5-4275-85d9-d05d4d8bc4a1)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/e7c0c6f9-067b-43a3-95ad-66d6b2cae871)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/b26145a0-bdd7-46e5-9a39-c075fde766bd)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/196936bb-21ca-48e8-9447-32888f46f267)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/ac1d3adc-22e5-4456-a7ce-3fa5f2910095)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/dbc62605-3724-4ae0-981e-e1bc8a7e388e)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/0dece1b6-8eb5-4ee4-aee5-48e1c13a6541)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/43d16604-8ddb-4cf2-9947-8ec32595b986)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/b2e5a2f8-9945-4a99-a143-2bf0db40c67a)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/7cffd3c9-37e7-4eaf-ab67-9074a401725c)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/59a67c51-1db4-4fc5-bf2a-eb2aa7b4c70c)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/be5a9128-0fc6-4244-a4c8-2322a5e59ab4)
+![image](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/assets/1326/2090aba0-e23b-4e7d-a1bd-cce8b459c2a9)

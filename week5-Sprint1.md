@@ -1,5 +1,5 @@
 # Sprint 1 Documentation
-Student name: Xiaoya Fan<br>
+Student name: Binyu Cui<br>
 Group members - Binyu Cui(24007733), Xiaoya Fan(24014203)
 
 **Project Title - Scattered Parts** 

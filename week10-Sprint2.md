@@ -1,4 +1,3 @@
-## Design Justification 
 # Sprint 2 Documentation
 Student name: Binyu Cui<br>
 Group members: Binyu Cui(24007733), Xiaoya Fan(24014203)

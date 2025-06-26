@@ -1,38 +1,34 @@
-# Week 19
-
-### Labs
-
-# Unity教室互动游戏完整架构图
+# Unity Classroom Interactive Game Complete Architecture
 
 ```mermaid
 flowchart TD
-    Start([游戏开始]) --> MainHub[MainHub场景<br/>主场景入口]
+    Start([Game Start]) --> MainHub[MainHub Scene<br/>Main Entry Scene]
     
-    MainHub --> C1[Classroom1场景<br/>教室互动]
-    MainHub --> C2[Classroom2场景<br/>教室互动]
-    MainHub --> C3[Classroom3场景<br/>教室互动]
-    MainHub --> C4[Classroom4场景<br/>教室互动]
+    MainHub --> C1[Classroom1 Scene<br/>Classroom Interaction]
+    MainHub --> C2[Classroom2 Scene<br/>Classroom Interaction]
+    MainHub --> C3[Classroom3 Scene<br/>Classroom Interaction]
+    MainHub --> C4[Classroom4 Scene<br/>Classroom Interaction]
     
-    C1 --> |选择+1/-1| DataManager{GameDataManager<br/>数据管理}
-    C2 --> |选择+1/-1| DataManager
-    C3 --> |选择+1/-1| DataManager
-    C4 --> |选择+1/-1| DataManager
+    C1 --> |Choose +1/-1| DataManager{GameDataManager<br/>Data Management}
+    C2 --> |Choose +1/-1| DataManager
+    C3 --> |Choose +1/-1| DataManager
+    C4 --> |Choose +1/-1| DataManager
     
-    C1 --> |完成后| MainHub
-    C2 --> |完成后| MainHub
-    C3 --> |完成后| MainHub
+    C1 --> |After Completion| MainHub
+    C2 --> |After Completion| MainHub
+    C3 --> |After Completion| MainHub
     
-    C4 --> |第4个教室完成| Decision{分数判断}
+    C4 --> |4th Classroom Complete| Decision{Score Decision}
     
-    Decision --> |分数≥0| PositiveEnding[PositiveEnding场景<br/>正分结局视频]
-    Decision --> |分数<0| NegativeEnding[NegativeEnding场景<br/>负分结局视频]
+    Decision --> |Score ≥ 0| PositiveEnding[PositiveEnding Scene<br/>Positive Score Ending Video]
+    Decision --> |Score < 0| NegativeEnding[NegativeEnding Scene<br/>Negative Score Ending Video]
     
-    PositiveEnding --> |按任意键| FinalEnding[FinalEnding场景<br/>最终结局视频]
-    NegativeEnding --> |按任意键| FinalEnding
+    PositiveEnding --> |Press Any Key| FinalEnding[FinalEnding Scene<br/>Final Ending Video]
+    NegativeEnding --> |Press Any Key| FinalEnding
     
-    FinalEnding --> |按任意键| GameEnd([游戏结束])
+    FinalEnding --> |Press Any Key| GameEnd([Game End])
     
-    %% 样式定义
+    %% Style definitions
     classDef sceneBox fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000
     classDef scriptBox fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
     classDef dataBox fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000
@@ -43,43 +39,53 @@ flowchart TD
     class DataManager,Decision dataBox
 ```
 
-###  场景结构
+## Game Overall Architecture
+
+### Scene Structure
 ```
-Unity教室互动游戏
-├── MainHub场景 (主入口场景)
-├── Classroom1场景 (教室1)
-├── Classroom2场景 (教室2)  
-├── Classroom3场景 (教室3)
-├── Classroom4场景 (教室4)
-├── PositiveEnding场景 (正分结局)
-├── NegativeEnding场景 (负分结局)
-└── FinalEnding场景 (最终结局)
+Unity Classroom Interactive Game
+├── MainHub Scene (Main Entry Scene)
+├── Classroom1 Scene (Classroom 1)
+├── Classroom2 Scene (Classroom 2)  
+├── Classroom3 Scene (Classroom 3)
+├── Classroom4 Scene (Classroom 4)
+├── PositiveEnding Scene (Positive Score Ending)
+├── NegativeEnding Scene (Negative Score Ending)
+└── FinalEnding Scene (Final Ending)
 ```
 
-### 核心脚本依赖
+### Core Script Dependencies
 
-| 场景类型 | 主要脚本 | 作用 |
-|---------|----------|------|
-| **MainHub** | `ClassroomEntrance.cs` | 教室入口按钮控制 |
-| **Classroom1-4** | `ClassroomController.cs` | 教室内音频UI交互 |
-| **所有场景** | `GameDataManager.cs` | 全局数据和场景管理 |
-| **结局场景** | `EndingVideoController.cs` | 视频播放和跳转控制 |
+| Scene Type | Main Script | Purpose |
+|------------|-------------|---------|
+| **MainHub** | `ClassroomEntrance.cs` | Classroom entrance button control |
+| **Classroom1-4** | `ClassroomController.cs` | In-classroom audio UI interaction |
+| **All Scenes** | `GameDataManager.cs` | Global data and scene management |
+| **Ending Scenes** | `EndingVideoController.cs` | Video playback and transition control |
 
-### 游戏流程
+### Game Flow
 
 ```
-开始游戏 → MainHub显示4个教室按钮
+Start Game → MainHub displays 4 classroom buttons
        ↓
-选择教室 → 进入对应Classroom场景
+Select Classroom → Enter corresponding Classroom scene
        ↓  
-播放音频 → 显示UI → 玩家选择(+1/-1) → 返回MainHub
+Play Audio → Show UI → Player Choice (+1/-1) → Return to MainHub
        ↓
-重复流程直到完成4个教室
+Repeat process until 4 classrooms completed
        ↓
-触发结局 → 根据总分播放对应结局视频
+Trigger Ending → Play corresponding ending video based on total score
        ↓
-按任意键 → 播放最终结局视频
+Press Any Key → Play final ending video
        ↓
-按任意键 → 游戏结束
+Press Any Key → Game End
 ```
 
+### Technical Features
+
+- **Singleton Pattern**: GameDataManager cross-scene data persistence
+- **Audio Control**: UI appears after classroom audio playback completion
+- **UI Interaction**: Code-based button event binding with hide/show support
+- **Video Playback**: RenderTexture method for fullscreen ending video playback
+- **State Management**: Real-time tracking of classroom completion status and score accumulation
+- **Debug System**: Complete keyboard shortcut testing functionality

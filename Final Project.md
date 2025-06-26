@@ -1,5 +1,5 @@
 # Fianl Project
-Student name: Xiaoya Fan
+Student name: Binyu Cui
 
 Group members - Binyu Cui(24007733), Xiaoya Fan(24014203), Qian Gao(24012154), Yifan Shen(23014785)
 
@@ -18,7 +18,7 @@ The project was developed in Unity using a first-person controller, modular C# s
 
 ## Individual Contribution and Team Roles ##
 
-I led the visual storytelling and endgame design, creating three symbolic anomaly scenes: an overly tidy classroom, a cluttered teacher’s corner, and a student’s implied suicide. I developed the final judgment sequence and designed the closing UI, integrating sensor-driven interactions. In addition to these technical contributions, I served as the visual coordinator, consolidating team assets and facilitating collaborative discussion. This coordination ensured our creative vision remained cohesive while enhancing the emotional impact of the final experience.
+
 
 ![1](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/98bb9f44-4ba9-4190-a605-9ee1286ca2d3)
 ![2](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/3de76d4d-65a6-4024-bb83-a7ad9ce01bf3)
@@ -56,13 +56,10 @@ Based on this feedback, we propose several adjustments:
 The 10-minute format proved effective for capturing one full “dream loop” from entry to awakening. This short cycle supports focused attention and encourages clearer reflection, while informing design improvements that enhance orientation, narrative coherence, and emotional payoff.
 
 ## Lab exercises ##
-- [Lab 1](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/blob/main/week1.md)
-- [Lab 2](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/blob/main/week14.md)
-- [Lab 3](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/blob/main/week16.md)
+
 
 ## Sprint 1 & Sprint 2 Documentation ##
-- [Sprint 1](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/blob/main/week5-Sprint1.md)
-- [Sprint 2](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/blob/main/week10-Sprint2.md)
+
 
 ## ChatGPT Log ##
 - [ChatGPT log](https://chatgpt.com/share/685c4d2c-aaec-8013-b763-195e33e77087)<br>

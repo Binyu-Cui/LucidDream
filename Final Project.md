@@ -10,15 +10,14 @@ Lucid Dream is a first-person interactive game that explores the psychological c
 
 This project asks how institutional expectations infiltrate our subconscious decision-making, and what happens when we begin to recognize these influences. It aims to reveal the often unnoticed psychological mechanisms that shape our daily negotiations between authentic self-expression and social conformity.
 
-This work extends my ongoing research into consciousness, identity, and social pressure. My past projects have focused on how individuals understand themselves within social structures, particularly how stereotypes and norms influence self-worth. Lucid Dream draws from real-world tensions, such as the pressure women face to marry or have children, or students being expected to follow fixed paths of academic and career success. Through symbolic storytelling and interactive choice, the game encourages reflection on how internalized roles shape our values, behaviors, and sense of self.
-
+写感想
 ## Technical description ##
 
 The project was developed in Unity using a first-person controller, modular C# scripts(Visual Studio Code), and context-based UI logic. A pressure sensor captures real-time physical input, enabling players to make moral decisions through embodied interaction rather than traditional clicking. The scene system includes branching choices, automated transitions, and interactive prompts. Custom-designed classroom and office environments incorporate lighting effects, character animations, and spatial audio to enhance narrative immersion. By combining physical input with symbolic dream sequences, the project creates a hybrid experience in which digital structure and individual agency intersect.
 
 ## Individual Contribution and Team Roles ##
 
-
+写
 
 ![1](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/98bb9f44-4ba9-4190-a605-9ee1286ca2d3)
 ![2](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/3de76d4d-65a6-4024-bb83-a7ad9ce01bf3)

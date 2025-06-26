@@ -1,4 +1,4 @@
-# Fianl Project
+# Final Project
 Student name: Binyu Cui
 
 Group members - Binyu Cui(24007733), Xiaoya Fan(24014203), Qian Gao(24012154), Yifan Shen(23014785)

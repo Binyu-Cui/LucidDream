@@ -54,13 +54,17 @@ Based on this feedback, we propose several adjustments:
 
 The 10-minute format proved effective for capturing one full “dream loop” from entry to awakening. This short cycle supports focused attention and encourages clearer reflection, while informing design improvements that enhance orientation, narrative coherence, and emotional payoff.
 
-## Lab exercises ##
+## Link to all project files and assets
+[Game application - Google Drive](https://drive.google.com/file/d/1qq2Swx5DCWnxEPIHd6sKwHGcDGJXsjka/view?usp=sharing)
+[Data files - Google Drive](https://drive.google.com/drive/folders/1fNleC2e06W-F33k5AQjpfefpVCCBjjTr?usp=sharing))
+
+## Lab exercises
 
 
-## Sprint 1 & Sprint 2 Documentation ##
+## Sprint 1 & Sprint 2 Documentation
 
 
-## ChatGPT Log ##
+## ChatGPT Log
 - [ChatGPT log](https://chatgpt.com/share/685c4d2c-aaec-8013-b763-195e33e77087)<br>
 - [ChatGPT log](https://chatgpt.com/share/685c5a8f-9a74-8009-b91d-9ef00b22f404)<br>
 - [ChatGPT log](https://claude.ai/share/727c06c4-7d6a-4a19-9ff1-7cff7e01b0b7)

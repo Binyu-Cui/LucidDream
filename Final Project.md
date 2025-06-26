@@ -56,7 +56,7 @@ The 10-minute format proved effective for capturing one full “dream loop” fr
 
 ## Link to all project files and assets
 [Game application - Google Drive](https://drive.google.com/file/d/1qq2Swx5DCWnxEPIHd6sKwHGcDGJXsjka/view?usp=sharing)
-[Data files - Google Drive](https://drive.google.com/drive/folders/1fNleC2e06W-F33k5AQjpfefpVCCBjjTr?usp=sharing))
+[Data files - Google Drive](https://drive.google.com/drive/folders/1fNleC2e06W-F33k5AQjpfefpVCCBjjTr?usp=sharing)
 
 ## Lab exercises
 

@@ -49,6 +49,7 @@ Unity Classroom Interactive Game
 ├── Classroom2 Scene (Classroom 2)  
 ├── Classroom3 Scene (Classroom 3)
 ├── Classroom4 Scene (Classroom 4)
+├── Classroom...
 ├── PositiveEnding Scene (Positive Score Ending)
 ├── NegativeEnding Scene (Negative Score Ending)
 └── FinalEnding Scene (Final Ending)
@@ -66,13 +67,13 @@ Unity Classroom Interactive Game
 ### Game Flow
 
 ```
-Start Game → MainHub displays 4 classroom buttons
+Start Game → MainHub displays 8 classroom buttons
        ↓
 Select Classroom → Enter corresponding Classroom scene
        ↓  
 Play Audio → Show UI → Player Choice (+1/-1) → Return to MainHub
        ↓
-Repeat process until 4 classrooms completed
+Repeat process until 8 classrooms completed
        ↓
 Trigger Ending → Play corresponding ending video based on total score
        ↓

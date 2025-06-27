@@ -137,17 +137,17 @@ Based on this feedback, we propose several adjustments:
 The 10-minute format proved effective for capturing one full “dream loop” from entry to awakening. This short cycle supports focused attention and encourages clearer reflection, while informing design improvements that enhance orientation, narrative coherence, and emotional payoff.
 
 ## Link to all project files and assets
-[Game application - Google Drive](https://drive.google.com/file/d/1qq2Swx5DCWnxEPIHd6sKwHGcDGJXsjka/view?usp=sharing)  
-[Data files - Google Drive](https://drive.google.com/drive/folders/1fNleC2e06W-F33k5AQjpfefpVCCBjjTr?usp=sharing)
+- [Game application - Google Drive](https://drive.google.com/file/d/1qq2Swx5DCWnxEPIHd6sKwHGcDGJXsjka/view?usp=sharing)  
+- [Data files - Google Drive](https://drive.google.com/drive/folders/1fNleC2e06W-F33k5AQjpfefpVCCBjjTr?usp=sharing)
 
 ## Lab exercises
-[Week 1](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week1.md)  
-[Week 2](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week2.md)  
-[Week 6](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week6.md)  
+- [Week 1](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week1.md)  
+- [Week 2](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week2.md)  
+- [Week 6](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week6.md)  
 
 ## Sprint 1 & Sprint 2 Documentation
-[Sprint 1](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week5-Sprint1.md)  
-[Sprint 2](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week10-Sprint2.md)  
+- [Sprint 1](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week5-Sprint1.md)  
+- [Sprint 2](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week10-Sprint2.md)  
 
 ## ChatGPT Log
 - [ChatGPT log](https://chatgpt.com/share/685c4d2c-aaec-8013-b763-195e33e77087)<br>

@@ -10,15 +10,97 @@ Lucid Dream is a first-person interactive game that explores the psychological c
 
 This project asks how institutional expectations infiltrate our subconscious decision-making, and what happens when we begin to recognize these influences. It aims to reveal the often unnoticed psychological mechanisms that shape our daily negotiations between authentic self-expression and social conformity.
 
-写感想
+Throughout the continuous refinement of the game’s narrative structure to ensure internal consistency, I have gained a clearer understanding of the interactive dynamics between the game and the player, as well as the mechanisms and pathways through which thematic intent and the designer’s vision can be effectively conveyed. I have learned how to use both surface-level visual tension and deeper interaction design logic to quickly immerse players in the virtual environments I create. At the same time, I have become increasingly familiar with the entire game development pipeline, particularly in areas such as branching narrative structures, player choice systems, and behavioral feedback loops. I came to recognize the crucial role that game scripting plays in shaping player experience and advancing the storyline—it serves as a vital bridge between design and player interaction. Most practically, my ability to work with the Unity engine has become more fluent and efficient, allowing me to configure and integrate various components seamlessly and build more mature, structurally cohesive game projects. Meanwhile, I have continued to grow in my strengths—visual storytelling and user experience design—successfully integrating them with newly acquired technical skills to produce works that are both expressive and highly playable.
+
 ## Technical description ##
 
 The project was developed in Unity using a first-person controller, modular C# scripts(Visual Studio Code), and context-based UI logic. A pressure sensor captures real-time physical input, enabling players to make moral decisions through embodied interaction rather than traditional clicking. The scene system includes branching choices, automated transitions, and interactive prompts. Custom-designed classroom and office environments incorporate lighting effects, character animations, and spatial audio to enhance narrative immersion. By combining physical input with symbolic dream sequences, the project creates a hybrid experience in which digital structure and individual agency intersect.
 
 ## Individual Contribution and Team Roles ##
+### Individual Contribution
 
-写
+My main contribution was integrating the overall game framework, designing all interaction mechanics and underlying game logic, as well as creating the entire user interface. I was also responsible for designing all in-game animations and narrative cutscenes, along with the two abnormal classroom scenes.（See the relevant section under team roles for more details.）
 
+#### Interactive Game Architecture
+I refined my original flow sketches into an improved and fully visualized version.
+
+```mermaid
+flowchart TD
+    Start([Game Start]) --> MainHub[MainHub Scene<br/>Main Entry Scene]
+    
+    MainHub --> C1[Classroom1 Scene<br/>Classroom Interaction]
+    MainHub --> C2[Classroom2 Scene<br/>Classroom Interaction]
+    MainHub --> C3[Classroom3 Scene<br/>Classroom Interaction]
+    MainHub --> C4[Classroom4 Scene<br/>Classroom Interaction]
+    
+    C1 --> |Choose +1/-1| DataManager{GameDataManager<br/>Data Management}
+    C2 --> |Choose +1/-1| DataManager
+    C3 --> |Choose +1/-1| DataManager
+    C4 --> |Choose +1/-1| DataManager
+    
+    C1 --> |After Completion| MainHub
+    C2 --> |After Completion| MainHub
+    C3 --> |After Completion| MainHub
+    
+    C4 --> |4th Classroom Complete| Decision{Score Decision}
+    
+    Decision --> |Score ≥ 0| PositiveEnding[PositiveEnding Scene<br/>Positive Score Ending Video]
+    Decision --> |Score < 0| NegativeEnding[NegativeEnding Scene<br/>Negative Score Ending Video]
+    
+    PositiveEnding --> |Press Any Key| FinalEnding[FinalEnding Scene<br/>Final Ending Video]
+    NegativeEnding --> |Press Any Key| FinalEnding
+    
+    FinalEnding --> |Press Any Key| GameEnd([Game End])
+    
+    %% Style definitions
+    classDef sceneBox fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000
+    classDef scriptBox fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000
+    classDef dataBox fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px,color:#000
+    classDef videoBox fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000
+    
+    class MainHub,C1,C2,C3,C4 sceneBox
+    class PositiveEnding,NegativeEnding,FinalEnding videoBox
+    class DataManager,Decision dataBox
+```
+
+#### Script Structure
+| Scene/System | Script Name | Purpose | Status |
+|--------------|-------------|---------|--------|
+| **All Scenes** | `GameDataManager.cs` | Global data management, score tracking, scene transitions | Core |
+| **MainHub** | `ClassroomEntrance.cs` | Classroom entrance button control and status display | Core |
+| **MainHub** | `MainHubUI.cs` | Hub scene UI status and progress display | Secondary |
+| **Classroom1-8** | `ClassroomController.cs` | In-classroom audio, UI interaction, choice handling | Core |
+| **Ending Scenes** | `EndingVideoController.cs` | Video playbook, frame holding, transition control | Core |
+| **MainMenu** | `MainMenuController.cs` | Start screen with dual interface system | Secondary |
+| **MainMenu** | `SimpleMenuController.cs` | Simplified menu controller alternative | Secondary |
+| **IntroVideo** | `VideoManager.cs` | Introduction video playback and skip functionality | Secondary |
+| **Utility** | `SceneLoader.cs` | Scene loading with transition effects | Enhancement |
+
+
+#### Game Flow
+
+```
+Start Game → MainHub displays 8 classroom buttons
+       ↓
+Select Classroom → Enter corresponding Classroom scene
+       ↓  
+Play Audio → Show UI → Player Choice (+1/-1) → Return to MainHub
+       ↓
+Repeat process until 8 classrooms completed
+       ↓
+Trigger Ending → Play corresponding ending video based on total score
+       ↓
+Press Any Key → Play final ending video
+       ↓
+Press Any Key → Game End
+```
+#### Features  
+**1. Singleton Pattern**: GameDataManager cross-scene data persistence  
+**2. Audio Control**: UI appears after classroom audio playback completion  
+**3. UI Interaction**: Code-based button event binding with hide/show support  
+**4. State Management**: Real-time tracking of classroom completion status and score accumulation  
+
+### Team Roles
 ![1](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/98bb9f44-4ba9-4190-a605-9ee1286ca2d3)
 ![2](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/3de76d4d-65a6-4024-bb83-a7ad9ce01bf3)
 ![3](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/dbd6babe-68e2-405e-ae42-274b95a49836)
@@ -59,10 +141,13 @@ The 10-minute format proved effective for capturing one full “dream loop” fr
 [Data files - Google Drive](https://drive.google.com/drive/folders/1fNleC2e06W-F33k5AQjpfefpVCCBjjTr?usp=sharing)
 
 ## Lab exercises
-
+[Week 1](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week1.md)  
+[Week 2](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week2.md)  
+[Week 6](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week6.md)  
 
 ## Sprint 1 & Sprint 2 Documentation
-
+[Sprint 1](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week5-Sprint1.md)  
+[Sprint 2](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week10-Sprint2.md)  
 
 ## ChatGPT Log
 - [ChatGPT log](https://chatgpt.com/share/685c4d2c-aaec-8013-b763-195e33e77087)<br>

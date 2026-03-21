@@ -148,24 +148,16 @@ Press Any Key → Game End
 ![dbd6babe-68e2-405e-ae42-274b95a49836](https://github.com/user-attachments/assets/6cfabc19-ae0e-4151-aef6-b794c083c691)
 
 
-
 ## Project Images ##
-<img width="1308" alt="image 1" src="https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/9b2cd0b3-2fdc-43ff-a65c-0871508438f9">
-<img width="1310" alt="image 2" src="https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/6f56834d-4354-4d6f-8b62-bffefed65471">
-<img width="1308" alt="image 3" src="https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/2df33e0f-28dd-496a-bfb3-765f8efcd7d7">
-<img width="1308" alt="image 4" src="https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/f8e25ca2-d891-40d6-8d6a-32d0148df4f9">
-<img width="1308" alt="image 5" src="https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/cc920599-04e3-4628-b33f-a34cf09caf3e">
-
-
-## Demo Video ##
-
-
-https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/adfd0d2c-76ce-4067-8d57-e6a31147b138
-
+<img width="2616" height="1472" alt="9b2cd0b3-2fdc-43ff-a65c-0871508438f9" src="https://github.com/user-attachments/assets/9d8f211d-b450-4f90-8b8c-65140dce02ef" />
+<img width="2616" height="1466" alt="2df33e0f-28dd-496a-bfb3-765f8efcd7d7" src="https://github.com/user-attachments/assets/af662e2e-2b20-4392-97b9-6171e6bd31f7" />
+<img width="2619" height="1473" alt="6f56834d-4354-4d6f-8b62-bffefed65471" src="https://github.com/user-attachments/assets/48c8c6bc-9562-4b90-85b7-978567729e61" />
+<img width="2616" height="1464" alt="f8e25ca2-d891-40d6-8d6a-32d0148df4f9" src="https://github.com/user-attachments/assets/8981a6c3-2013-4139-b632-023d43a5ed33" />
+<img width="2616" height="1468" alt="cc920599-04e3-4628-b33f-a34cf09caf3e" src="https://github.com/user-attachments/assets/5a9e23c6-e8fa-4deb-8cbc-ed0fde05e911" />
 
 
 ## Playtest Results & Revision Plan ##
-<img width="1394" alt="user test" src="https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/b1a4cb69-fe1c-498b-b774-caddb075ec15">
+<img width="2788" height="932" alt="b1a4cb69-fe1c-498b-b774-caddb075ec15" src="https://github.com/user-attachments/assets/57ad9e66-2f0f-461d-927e-21cf177765db" />
 
 We conducted user testing with six participants, including four design students and two non-design peers. Each session lasted around 10 minutes, allowing players to experience two full dream scenes. Observations focused on clarity of interaction, emotional engagement, and narrative comprehension.
 

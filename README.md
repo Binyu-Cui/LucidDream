@@ -1,5 +1,5 @@
 ## Project description ##
-
+[DEMO Video](https://youtu.be/dMrMDvCaNRk)
 
 Lucid Dream is a first-person interactive game that explores the psychological conflict between institutional roles and personal identity. Players enter a recurring dream as a teacher, repeatedly encountering morally ambiguous scenarios across eight scenes. They must decide whether to intervene in strange student behaviors or remain passive. Regardless of their choices, the cycle always ends with awakening and returning to reality. Motion sensors enhance immersion by allowing body-based interaction.
 
@@ -55,57 +55,6 @@ flowchart TD
     class DataManager,Decision dataBox
 ```
 
-```mermaid
-flowchart TD
-    Start([Game Start 游戏开始]) --> MainHub[MainHub Scene<br/>主场景 · 入口]
-
-    MainHub --> |After Completion 完成后| C1[Classroom1 Scene<br/>教室1 · 课堂互动]
-    MainHub --> |After Completion 完成后| C2[Classroom2 Scene<br/>教室2 · 课堂互动]
-    MainHub --> |After Completion 完成后| C3[Classroom3 Scene<br/>教室3 · 课堂互动]
-    MainHub --> |After Completion 完成后| C4[Classroom4 Scene<br/>教室4 · 课堂互动]
-
-    C1 --> |Choose +1/-1 做出选择| DataManager{GameDataManager<br/>数据管理器}
-    C2 --> |Choose +1/-1 做出选择| DataManager
-    C3 --> |Choose +1/-1 做出选择| DataManager
-    C4 --> |Choose +1/-1 做出选择| DataManager
-
-    C1 --> |Return 返回| MainHub
-    C2 --> |Return 返回| MainHub
-    C3 --> |Return 返回| MainHub
-
-    C4 --> |4th Complete 第四间完成| Decision{Score Decision<br/>分数判断}
-
-    Decision --> |Score ≥ 0 正分| PositiveEnding[PositiveEnding Scene<br/>正向结局视频]
-    Decision --> |Score < 0 负分| NegativeEnding[NegativeEnding Scene<br/>负向结局视频]
-
-    PositiveEnding --> |Press Any Key 按任意键| FinalEnding[FinalEnding Scene<br/>统一终结场景]
-    NegativeEnding --> |Press Any Key 按任意键| FinalEnding
-
-    FinalEnding --> |Press Any Key 按任意键| GameEnd([Game End 游戏结束])
-
-    classDef default fill:#f5f5f5,stroke:#999,stroke-width:1px,color:#333
-    classDef terminal fill:#e8e8e8,stroke:#666,stroke-width:1px,color:#333
-    classDef decision fill:#efefef,stroke:#888,stroke-width:1px,color:#333
-
-    class Start,GameEnd terminal
-    class DataManager,Decision decision
-```
-```mermaid
-flowchart TD
-    Sensor[压力传感器 Pressure Sensor<br/>玩家身体施压 · Physical Input]
-    Arduino[Arduino 控制器 Controller<br/>信号采集与转换 · Signal Conversion]
-    Serial[串口通信 Serial COM<br/>USB 数字数据传输 · Digital Transfer]
-    Unity[Unity C# 脚本 Script<br/>读取端口 · 解析输入值 · Parse Input]
-    Game[游戏事件触发 Game Event<br/>道德选择 · 分数更新 · Score Update]
-
-    Sensor --> |模拟信号 Analog Signal| Arduino
-    Arduino --> |数字信号 Digital Signal| Serial
-    Serial --> |串口读取 Port Read| Unity
-    Unity --> |事件触发 Trigger| Game
-    Game --> |反馈循环 Feedback Loop| Sensor
-
-    classDef default fill:#f5f5f5,stroke:#999,stroke-width:1px,color:#333
-```
 #### Script Structure
 | Scene/System | Script Name | Purpose | Status |
 |--------------|-------------|---------|--------|

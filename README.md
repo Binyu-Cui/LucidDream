@@ -1,11 +1,6 @@
-# Final Project
-Student name: Binyu Cui
-
-Group members - Binyu Cui(24007733), Xiaoya Fan(24014203), Qian Gao(24012154), Yifan Shen(23014785)
-
-Project Title: Lucid Dream
-
 ## Project description ##
+
+
 Lucid Dream is a first-person interactive game that explores the psychological conflict between institutional roles and personal identity. Players enter a recurring dream as a teacher, repeatedly encountering morally ambiguous scenarios across eight scenes. They must decide whether to intervene in strange student behaviors or remain passive. Regardless of their choices, the cycle always ends with awakening and returning to reality. Motion sensors enhance immersion by allowing body-based interaction.
 
 This project asks how institutional expectations infiltrate our subconscious decision-making, and what happens when we begin to recognize these influences. It aims to reveal the often unnoticed psychological mechanisms that shape our daily negotiations between authentic self-expression and social conformity.
@@ -15,9 +10,6 @@ Throughout the continuous refinement of the game’s narrative structure to ensu
 ## Technical description ##
 
 The project was developed in Unity using a first-person controller, modular C# scripts(Visual Studio Code), and context-based UI logic. A pressure sensor captures real-time physical input, enabling players to make moral decisions through embodied interaction rather than traditional clicking. The scene system includes branching choices, automated transitions, and interactive prompts. Custom-designed classroom and office environments incorporate lighting effects, character animations, and spatial audio to enhance narrative immersion. By combining physical input with symbolic dream sequences, the project creates a hybrid experience in which digital structure and individual agency intersect.
-
-## Individual Contribution and Team Roles ##
-### Individual Contribution
 
 My main contribution was integrating the overall game framework, designing all interaction mechanics and underlying game logic, as well as creating the entire user interface. I was also responsible for designing all in-game animations and narrative cutscenes, along with the two abnormal classroom scenes.（See the relevant section under team roles for more details.）
 
@@ -151,10 +143,10 @@ Press Any Key → Game End
 **3. UI Interaction**: Code-based button event binding with hide/show support  
 **4. State Management**: Real-time tracking of classroom completion status and score accumulation  
 
-### Team Roles
-![1](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/98bb9f44-4ba9-4190-a605-9ee1286ca2d3)
-![2](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/3de76d4d-65a6-4024-bb83-a7ad9ce01bf3)
-![3](https://git.arts.ac.uk/24014203/Xiaoya_FAN-Responsive-Environments-Blog-2024/assets/1366/dbd6babe-68e2-405e-ae42-274b95a49836)
+![98bb9f44-4ba9-4190-a605-9ee1286ca2d3](https://github.com/user-attachments/assets/1ab05a1c-83e5-42fe-9ec9-1d1e1a4e4f6a)
+![3de76d4d-65a6-4024-bb83-a7ad9ce01bf3](https://github.com/user-attachments/assets/40f2c366-1e9c-452f-a29f-ac260799f05d)
+![dbd6babe-68e2-405e-ae42-274b95a49836](https://github.com/user-attachments/assets/6cfabc19-ae0e-4151-aef6-b794c083c691)
+
 
 
 ## Project Images ##
@@ -190,11 +182,6 @@ The 10-minute format proved effective for capturing one full “dream loop” fr
 ## Link to all project files and assets
 - [Game application - Google Drive](https://drive.google.com/file/d/1qq2Swx5DCWnxEPIHd6sKwHGcDGJXsjka/view?usp=sharing)  
 - [Data files - Google Drive](https://drive.google.com/drive/folders/1fNleC2e06W-F33k5AQjpfefpVCCBjjTr?usp=sharing)
-
-## Lab exercises
-- [Week 1](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week1.md)  
-- [Week 2](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week2.md)  
-- [Week 6](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week6.md)  
 
 ## Sprint 1 & Sprint 2 Documentation
 - [Sprint 1](https://git.arts.ac.uk/24007733/Responsive-Environments-Blog-2024/blob/main/week5-Sprint1.md)  
